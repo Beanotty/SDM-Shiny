@@ -1,0 +1,15 @@
+---
+title: "Perkenalan Ke Website"
+author: "Reyza"
+date: "5/25/2025"
+output: 
+  html_document:
+    mathjax: local
+    self_contained: false
+---
+
+
+
+# Halo! Selamat datang di Equalyst!
+
+Website ini merupakan pemaparan Informasi mengenai Indeks Ketimpangan Gender (IKG) dan pemodelan Statistikanya! Tujuan utamanya adalah untuk menginformasikan masyarakat mengenai IKG dan  mengetahui variabel apa saja yang signifikan terhadap IKG! Gambar dibawah merupakan kondisi ketimpangan gender di Indonesia pada Tahun 2023.

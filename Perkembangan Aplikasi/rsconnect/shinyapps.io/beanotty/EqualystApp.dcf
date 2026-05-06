@@ -1,0 +1,12 @@
+name: EqualystApp
+title: EqualystApp
+username: beanotty
+account: beanotty
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14950592
+bundleId: 10472734
+url: https://beanotty.shinyapps.io/EqualystApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

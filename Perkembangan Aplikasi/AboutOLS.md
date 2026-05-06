@@ -1,0 +1,18 @@
+---
+title: "About Problem"
+author: "Reyza"
+date: "5/15/2025"
+output: 
+  html_document:
+    mathjax: local
+    self_contained: false
+---
+
+
+
+# Bagaimana Kondisi Ketimpangan Gender menurut Penelitian?
+
+
+Melihat dari Indeks _Gender gap_ Indonesia pada tahun 2024 berupa 0.69. Indeks ini menunjukkan level yang kurang ideal jika dibandingkan dengan negara Asia Tenggara lainnya. Thailand, Vietnam, Laos, Singapura, Filipina, dan Timor Leste mempunyai indeks yang **lebih tinggi dari Indonesia**. Jika dibandingkan dengan skala yang lebih global, Indonesia menduduki peringkat **100 dari 146** negara dalam Gender Gap indeks. 
+
+Mengkaji lebih dalam, Indonesia menunjukkan performa yang baik dalam aspek kesetaraan gender di bidang pendidikan dan kesehatan. Indonesia menduduki peringkat menengah pada aspek pemberdayaan. Namun, tingkat partisipasi angkatan kerja perempuan di Indonesia stagnan pada kisaran 50% selama beberapa dekade terakhir.

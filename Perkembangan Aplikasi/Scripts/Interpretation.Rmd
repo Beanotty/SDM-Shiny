@@ -1,0 +1,47 @@
+---
+title: "Perkenalan Ke Website"
+author: "Reyza"
+date: "5/25/2025"
+output: 
+  html_document:
+    mathjax: local
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+```{r echo=FALSE, results='asis'}
+library(knitr)
+library(kableExtra)
+
+colnames(signifikansiModel) <- gsub("\\.", " ", colnames(signifikansiModel))
+
+  kable(signifikansiModel, align = "c", escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("hover"), full_width = FALSE) %>%
+  row_spec(0, bold = TRUE, extra_css = "border-bottom: 2px solid black;border-top: 2px solid black") %>%
+  row_spec(7, extra_css = "border-bottom: 2px solid black")
+  
+```
+#### Apa itu Tetangga?
+Tetangga merupakan satu poin dalam data yang mempunyai kedekatan dengan poinlainnnya. Dalam penelitian ini satu wilayah (poin) akan mempunyai maksimum 5 tetangga (wilayah yang berdekatan).
+
+
+#### $X_1$ (Persentase perempuan bekerja dalam Parlemen)
+1. Dampak dari Wilayah Sendiri : Kenaikan satu unit $X_1$ dalam suatu wilayah ketika semua variabel independen di wilayah tersebut dan wilayah tetangga konstan, menyebabkan penurunan IKG sebesar $0.00455$ dalam wilayah yang berkaitan.
+2. Dampak Total : Secara total, Kenaikan satu unit  $X_1$ dalam suatu wilayah dan diluar wilayah ketika semua variabel independen lain di wilayah tersebut dan wilayah tetangga konstan, menyebabkan penurunan IKG sebesar $0.00446$ dalam wilayah yang berkaitan.
+ 
+
+#### $X_4$ (Proporsi Perempuan Melahirkan Anak Lahir Hidup Yang Pertama Kali Berumur Kurang dari 20 tahun)
+1. Dampak dari Wilayah Sendiri : Kenaikan satu unit $X_4$ dalam suatu wilayah ketika semua variabel independen di wilayah tersebut dan wilayah tetangga konstan, menyebabkan kenaikan IKG sebesar $0.83688$ dalam wilayah yang berkaitan.
+2. Dampak Total : Secara total, Kenaikan satu unit $X_4$ dalam suatu wilayah dan diluar wilayah ketika semua variabel independen lain di wilayah tersebut dan wilayah tetangga konstan, menyebabkan kenaikan IKG sebesar $0.758$ dalam wilayah yang berkaitan 
+
+	
+#### $X_6$ (Angka Kelahiran Total)
+1. Dampak dari Wilayah Sendiri : Kenaikan satu unit $X_6$ dalam suatu wilayah ketika semua variabel independen di wilayah tersebut dan wilayah tetangga konstan, menyebabkan kenaikan IKG sebesar $0.07304$ dalam wilayah yang berkaitan.
+2. Dampak Dari Wilayah Tetangga : Kenaikan satu unit $X_6$ diluar suatu wilayah ketika semua variabel independen dalam suatu wilayah dan wilayah tetangga konstan, menyebabkan kenaikan IKG sebesar $0.08632$ dalam wilayah yang berkaitan.
+3. Dampak Total : Secara total, Kenaikan satu unit $X_6$ dalam suatu wilayah dan diluar wilayah ketika semua variabel independen lain di wilayah tersebut dan wilayah tetangga konstan, menyebabkan kenaikan IKG sebesar $0.15937$ dalam wilayah yang berkaitan.
+

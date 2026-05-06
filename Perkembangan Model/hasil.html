@@ -1,0 +1,59 @@
+
+<table style="text-align:center"><caption><strong>Regression Results</strong></caption>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="6"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="6" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>IKG</td><td>paste("y ~ ", paste(colnames(x)[-1], collapse = "+"))</td><td>IKG</td><td>IKG</td><td colspan="2">NA</td></tr>
+<tr><td style="text-align:left"></td><td><em>OLS</em></td><td><em>OLS</em></td><td><em>spatial</em></td><td><em>spatial</em></td><td colspan="2"><em>spatial</em></td></tr>
+<tr><td style="text-align:left"></td><td><em></em></td><td><em></em></td><td><em>error</em></td><td><em>error</em></td><td colspan="2"><em>autoregressive</em></td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Wpar</td><td>-0.005<sup>***</sup></td><td>-0.005<sup>***</sup></td><td>-0.005<sup>***</sup></td><td>-0.005<sup>***</sup></td><td>-0.005<sup>***</sup></td><td>-0.005<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.0005)</td><td>(0.0005)</td><td>(0.0004)</td><td>(0.0004)</td><td>(0.0004)</td><td>(0.0004)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Wwork</td><td>-0.0004</td><td>-0.0003</td><td>-0.0004</td><td>-0.0005</td><td>-0.0002</td><td>-0.0004</td></tr>
+<tr><td style="text-align:left"></td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.0005)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Unourish</td><td>0.001<sup>**</sup></td><td>0.001</td><td>0.001<sup>**</sup></td><td>0.001</td><td>0.0005</td><td>0.001</td></tr>
+<tr><td style="text-align:left"></td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Childbirth</td><td>0.828<sup>***</sup></td><td>0.827<sup>***</sup></td><td>0.834<sup>***</sup></td><td>0.840<sup>***</sup></td><td>0.735<sup>***</sup></td><td>0.845<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.043)</td><td>(0.055)</td><td>(0.046)</td><td>(0.048)</td><td>(0.043)</td><td>(0.049)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Wsumbang</td><td>-0.001<sup>**</sup></td><td>-0.001</td><td>-0.0004</td><td>-0.001</td><td>-0.001</td><td>-0.001</td></tr>
+<tr><td style="text-align:left"></td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">TFR</td><td>0.108<sup>***</sup></td><td>0.079<sup>***</sup></td><td>0.077<sup>***</sup></td><td>0.075<sup>***</sup></td><td>0.080<sup>***</sup></td><td>0.068<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.012)</td><td>(0.015)</td><td>(0.013)</td><td>(0.014)</td><td>(0.012)</td><td>(0.014)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag.Wpar</td><td></td><td>-0.0001</td><td></td><td>-0.0004</td><td></td><td>0.002<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td><td></td><td>(0.001)</td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag.Wwork</td><td></td><td>-0.001</td><td></td><td>-0.0003</td><td></td><td>-0.0003</td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td><td></td><td>(0.001)</td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag.Unourish</td><td></td><td>-0.002</td><td></td><td>-0.001</td><td></td><td>-0.001</td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td><td></td><td>(0.001)</td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag.Childbirth</td><td></td><td>-0.041</td><td></td><td>-0.069</td><td></td><td>-0.439<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.075)</td><td></td><td>(0.087)</td><td></td><td>(0.079)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag.Wsumbang</td><td></td><td>-0.003<sup>***</sup></td><td></td><td>-0.002</td><td></td><td>-0.001</td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td><td></td><td>(0.001)</td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag.TFR</td><td></td><td>0.085<sup>***</sup></td><td></td><td>0.058<sup>**</sup></td><td></td><td>0.016</td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.021)</td><td></td><td>(0.025)</td><td></td><td>(0.020)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>0.084<sup>*</sup></td><td>0.104</td><td>0.122<sup>***</sup></td><td>0.101</td><td>0.019</td><td>0.059</td></tr>
+<tr><td style="text-align:left"></td><td>(0.045)</td><td>(0.073)</td><td>(0.046)</td><td>(0.109)</td><td>(0.043)</td><td>(0.067)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>490</td><td>490</td><td>490</td><td>490</td><td>490</td><td>490</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.637</td><td>0.654</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.632</td><td>0.645</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td></td><td></td><td>558.439</td><td>561.673</td><td>546.230</td><td>563.360</td></tr>
+<tr><td style="text-align:left">sigma<sup>2</sup></td><td></td><td></td><td>0.006</td><td>0.006</td><td>0.006</td><td>0.006</td></tr>
+<tr><td style="text-align:left">Akaike Inf. Crit.</td><td></td><td></td><td>-1,098.878</td><td>-1,093.347</td><td>-1,074.460</td><td>-1,096.720</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>0.085 (df = 483)</td><td>0.083 (df = 477)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>141.019<sup>***</sup> (df = 6; 483)</td><td>75.046<sup>***</sup> (df = 12; 477)</td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Wald Test (df = 1)</td><td></td><td></td><td>108.541<sup>***</sup></td><td>81.685<sup>***</sup></td><td>55.983<sup>***</sup></td><td>81.737<sup>***</sup></td></tr>
+<tr><td style="text-align:left">LR Test (df = 1)</td><td></td><td></td><td>79.530<sup>***</sup></td><td>62.334<sup>***</sup></td><td>55.112<sup>***</sup></td><td>65.708<sup>***</sup></td></tr>
+<tr><td colspan="7" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="6" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

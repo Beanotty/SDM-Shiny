@@ -1,0 +1,12 @@
+name: WebApp
+title: WebApp
+username: beanotty
+account: beanotty
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14845255
+bundleId: 10472753
+url: https://beanotty.shinyapps.io/WebApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
