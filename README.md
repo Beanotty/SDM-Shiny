@@ -1,1 +1,1 @@
-Dashboard can be accessed using this link : beanotty.shinyapps.io/WebApp/
+Dashboard can be accessed using this link : [Statistical Dashboard](beanotty.shinyapps.io/WebApp/)
